@@ -13,7 +13,7 @@ class Business extends React.Component {
                 </div>
                 <h2>{business.name}</h2>
                 <div className="Business-information">
-                    <div clasName="Business-address">
+                    <div className="Business-address">
                     <p>{business.address}</p>
                     <p>{business.city}</p>
                     <p>{business.state} {business.zipCode}</p>
